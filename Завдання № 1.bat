@@ -1,5 +1,4 @@
-::@echo off 
-chcp 65001
+ chcp 65001
 title "Program  №1"
 cls
 mkdir "Лабораторные"
@@ -14,7 +13,6 @@ mkdir "Скрытая папка"
 attrib +h "Скрытая папка"
 mkdir "Не скрытая папка"
 xcopy /? > "Не скрытая папка\copyhelp.txt"
-::type "Не скрытая папка\copyhelp.txt"
 xcopy "Не скрытая папка\copyhelp.txt" "Скрытая папка\copied_copyhelp.txt" /Y 
 pause
 exit

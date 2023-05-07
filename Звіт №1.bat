@@ -1,4 +1,3 @@
-::@echo off 
 chcp 65001
 title "Звіт №1"
 cls
